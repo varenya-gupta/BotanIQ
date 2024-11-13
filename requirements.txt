@@ -1,0 +1,16 @@
+ultralytics
+tensorflow
+numpy
+opencv-python>=4.1.2
+pandas
+Pillow
+pyYAML
+requests
+tqdm
+together
+accelerate>=0.26.0
+torch
+transformers
+wikipedia-api
+cv
+cvzone
