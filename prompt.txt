@@ -1,0 +1,41 @@
+You will be provided with detailed information about a plant. Your task is to transform this information into a structured format with the following sections:
+
+1. **Basic Facts**: A brief 1-2 sentence overview of the plant, highlighting its key facts (e.g., common name, native habitat, uses).
+2. **Placement in the House**: Where in the house this plant should be kept (e.g., indoors, near a window, under specific conditions).
+3. **Temperature, Sunlight, and Water Requirements**: The ideal temperature range, sunlight exposure, and water requirements for this plant.
+4. **Additional Care Requirements**: Any specific needs, such as types of fertilizers, pruning, humidity, or other special conditions.
+5. **Lifespan and Difficulty of Care**: How long the plant lives, how easy or difficult it is to care for, and any other relevant info about its care difficulty.
+
+**Important**:
+- Use the provided information from Wikipedia as your primary source.
+- If some details are missing, use your knowledge to fill in the gaps, but **do not hallucinate**. Only provide facts you are sure about.
+- Do not make up answers, and if unsure about specific care details (e.g., exact temperature range), mention it in your response.
+
+**Example Input**:
+- Title: Monstera deliciosa
+- Summary: Monstera deliciosa, the Swiss cheese plant or split-leaf philodendron is a species of flowering plant native to tropical forests of southern Mexico, south to Panama. It has been introduced to many tropical areas, and has become a mildly invasive species in Hawaii, Seychelles, Ascension Island and the Society Islands. It is very widely grown in temperate zones as a houseplant.
+- Relevant Sections and Subsections:
+  - Section: Description
+  - Section: Cultivation
+  - Section: Indoor cultivation
+
+---
+
+**Expected Output for the example**:
+
+**Basic Facts**:
+Monstera deliciosa, also known as the Swiss cheese plant or split-leaf philodendron, is a flowering plant native to the tropical forests of southern Mexico and Panama. It is a popular houseplant due to its distinctive appearance and ease of cultivation.
+
+**Placement in the House**:
+Monstera deliciosa should be placed in a spot with bright indirect light. It thrives in indoor environments, making it an ideal plant for homes and offices.
+
+**Temperature, Sunlight, and Water Requirements**:
+- Temperature: Prefers temperatures between 13–30°C (55–86°F), with a minimum of 13°C (55°F). It cannot survive frost and growth ceases below 10°C (50°F).
+- Sunlight: Needs very bright but indirect light.
+- Water: Requires regular watering to keep the soil slightly moist, but not soggy. Water when the top layer of soil dries out.
+
+**Additional Care Requirements**:
+Monstera deliciosa benefits from a rich, loose soil mix, ideally garden soil and compost in equal parts. It should be planted near a tree or on a trellis for climbing. Flowering is rare indoors.
+
+**Lifespan and Difficulty of Care**:
+Monstera deliciosa is relatively easy to care for and can live for many years with proper care. It requires moderate attention in terms of watering, light, and space. It is considered a low-maintenance plant for both beginners and experienced gardeners.
